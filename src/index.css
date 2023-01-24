@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Poppins", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(255, 226, 243);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+}
+
+.main {
+  height: 700px;
+  width: 500px;
+  background-color: white;
+}
+
+nav {
+  height: 70px;
+  padding: 5px 16px;
+  display: flex;
+  width: 500px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.logo {
+  max-width: 100px;
+}
+
+.heroimg {
+  display: flex;
+  align-self: center;
+  margin: auto;
+  margin-top: 1em;
+  width: 400px;
+  max-width: 400px;
+}
+
+.title {
+  margin: 20px 0 0 20px;
+}
+
+.content {
+  text-align: justify;
+  margin: 10px 200px 0 20px;
+  margin-bottom: 1.5em;
+  line-height: 16px;
+}
+
+.cardcontainer {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.item {
+  margin: 10px 20px 0 20px;
+}
+
+.imgcontain {
+  position: relative;
+}
+
+.img1 {
+  width: 100px;
+  height: 130px;
+  max-height: 200px;
+  border-radius: 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.inset {
+  background-color: white;
+  position: absolute;
+  top: 3px;
+  left: 5px;
+  margin-top: 0;
+  padding: 1px 3px;
+  font-size: 8px;
+  text-align: center;
+  border-radius: 3px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.sub {
+  display: flex;
+  align-items: baseline;
+}
+
+.star {
+  max-width: 8px;
+  height: 8px;
+  margin-right: 2px;
+}
+
+.light {
+  font-weight: 300;
+}
+
+.subtitle {
+  line-height: 0.5px;
+  display: grid;
+  font-size: 8px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.sub-title {
+  width: 100px;
+  line-height: normal;
+}/*# sourceMappingURL=index.css.map */
